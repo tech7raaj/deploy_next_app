@@ -22,6 +22,6 @@ jobs:
           username: ${{ secrets.USERNAME }}   
           port: ${{ secrets.PORT }}  
           password: ${{ secrets.PASSWORD }}  
-          script: "cd :~/next_second/deploy_next_app && ./.scripts/deploy.sh"   
+          script: "cd : ~/next_second/deploy_next_app && ./.scripts/deploy.sh"   
 
          
